@@ -71,6 +71,6 @@ public class Main {
         System.out.println("5 + 7 = " + sumVar);
         System.out.println("20 - 13 = " + differenceVar);
         System.out.println("3 * 9 = " + productVar);
-        System.out.println("15 / 7 = " +quotientVar);
+        System.out.println("14 / 7 = " + quotientVar);
     }
 }

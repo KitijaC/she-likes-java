@@ -59,5 +59,18 @@ public class Main {
         // modulo operator - reminder operator: 9/4 = 2 and 1(reminder)
         result = 9%4;
         System.out.println("and now result is: " + result);
+
+        // my homework:
+        System.out.println("Simple calculator:");
+
+        int sumVar = 5 + 7;
+        int differenceVar = 20 - 13;
+        int productVar = 3 * 9;
+        int quotientVar = 14 / 7;
+
+        System.out.println("5 + 7 = " + sumVar);
+        System.out.println("20 - 13 = " + differenceVar);
+        System.out.println("3 * 9 = " + productVar);
+        System.out.println("15 / 7 = " +quotientVar);
     }
 }

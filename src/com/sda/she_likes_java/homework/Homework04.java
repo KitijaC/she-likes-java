@@ -1,5 +1,5 @@
-
-    // Exercise 8.
+package com.sda.she_likes_java.homework;
+// Exercise 8.
 //Create calculator with 4 supported operations, which is able to read input from user.
 
     import java.util.Scanner;

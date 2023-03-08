@@ -14,10 +14,13 @@ package com.sda.she_likes_java.homework;
 
             System.out.println("This is a calculator");
             System.out.println("This calculator supports 4 operations: sum, difference, product and quotient");
+            System.out.println("Provide two numbers to see the result");
+            System.out.println();
 
             System.out.println("Please provide the first number: ");
             firstNumber = inputReader.nextInt();
             System.out.println("You provided number: " + firstNumber);
+            System.out.println();
 
             System.out.println("Please provide the second number: ");
             secondNumber = inputReader.nextInt();
@@ -28,6 +31,8 @@ package com.sda.she_likes_java.homework;
             int product = firstNumber * secondNumber;
             int quotient = firstNumber / secondNumber;
 
+            System.out.println();
+            System.out.println("Result:");
             System.out.println("The sum is: " + sum);
             System.out.println("The difference is: " + difference);
             System.out.println("The product is: " + product);

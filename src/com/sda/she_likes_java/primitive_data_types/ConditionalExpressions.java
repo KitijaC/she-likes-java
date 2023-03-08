@@ -15,4 +15,5 @@ public class ConditionalExpressions {
             System.out.println("This will be run when condition is false");
         }
     }
+
 }

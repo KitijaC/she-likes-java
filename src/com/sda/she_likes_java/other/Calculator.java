@@ -1,9 +1,11 @@
+package com.sda.she_likes_java.other;
+
 import java.util.Scanner;
 
 public class Calculator {
     // psvm + enter - not so magic shortcut
     public static void main(String[] args) {
-        System.out.println("Calculator...");
+        System.out.println("com.sda.she_likes_java.other.Calculator...");
         System.out.println("Calculating sum of two numbers");
         System.out.println("Provide first number: ");
         int firstNumber;

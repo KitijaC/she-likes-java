@@ -8,7 +8,7 @@ public class Operators {
         boolean firstValue;
         boolean secondValue;
         boolean evaluationResult;
-        System.out.println("&& operator");
+        System.out.println("&& - AND operator");
         firstValue = true;
         secondValue = true;
         evaluationResult = firstValue && secondValue;
@@ -49,5 +49,27 @@ public class Operators {
         if (naughty) {
             System.out.println("You're not polite, or just naughty");
         }
+
+        System.out.println();
+        System.out.println("Let's see now || operator - OR operator");
+        boolean hasGun = true;
+        boolean hasGrenade = true;
+        boolean isTerrorist = hasGun || hasGrenade;
+        System.out.println("true || true is: " + isTerrorist);
+
+        hasGun = true;
+        hasGrenade = false;
+        isTerrorist = hasGun || hasGrenade;
+        System.out.println("true || false is: " + isTerrorist);
+
+        hasGun = false;
+        hasGrenade = true;
+        isTerrorist = hasGun || hasGrenade;
+        System.out.println("false || true is: " + isTerrorist);
+
+        hasGun = false;
+        hasGrenade = false;
+        isTerrorist = hasGun || hasGrenade;
+        System.out.println("false || false is: " + isTerrorist);
     }
 }

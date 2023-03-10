@@ -11,7 +11,7 @@ public class ConditionalExpressions {
         System.out.println("is kid: " + isKid);
 
         boolean condition = true;
-        if(condition) {
+        if (condition) {
             System.out.println("This will be run only when condition is true");
         } else {
             System.out.println("This will be run when condition is false");

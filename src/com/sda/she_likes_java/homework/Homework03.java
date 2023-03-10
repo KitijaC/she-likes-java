@@ -1,4 +1,5 @@
 package com.sda.she_likes_java.homework;
+
 //Exercise 7.
 //Create a simple calculator:
 //- definition of four variables which you will write out at the end
@@ -19,6 +20,6 @@ public class Homework03 {
         System.out.println("5 + 7 = " + sum);
         System.out.println("20 - 13 = " + difference);
         System.out.println("3 * 9 = " + product);
-        System.out.println("15 / 7 = " +quotient);
+        System.out.println("15 / 7 = " + quotient);
     }
 }

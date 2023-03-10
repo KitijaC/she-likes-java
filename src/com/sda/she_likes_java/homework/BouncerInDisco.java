@@ -23,7 +23,7 @@ public class BouncerInDisco {
         System.out.println("Enter your height: ");
         usersHeight = inputReader.nextInt();
 
-        if ((usersAge >= 16) && (usersHeight >= 160)) {
+        if (usersAge >= 16 && usersHeight >= 160) {
             System.out.println("You can enter the disco!");
         } else {
             System.out.println("Sorry, you can't enter the disco!");

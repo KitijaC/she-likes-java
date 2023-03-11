@@ -18,6 +18,8 @@ public class BouncersInDiscoStory {
         String declineMessage = "Sorry, you can't attend the party. Maybe next time!";
         String canEnterDiscoMessage = "Congrats! You can enter the party!";
 
+        System.out.println();
+        System.out.println("Hello! This is the Young Bouncer.");
         System.out.println("What is your age?");
         Scanner inputReader = new Scanner(System.in);
         int age = inputReader.nextInt();
@@ -27,14 +29,28 @@ public class BouncersInDiscoStory {
         boolean canSing = inputReader.nextBoolean();
 
         boolean youngBouncer = age >= 18 && height >= 160 && canSing;
-        boolean oldBouncer = age >= 18 || height >= 160 || canSing;
 
         if (youngBouncer) {
             System.out.println(canEnterDiscoMessage);
-        } else if (oldBouncer) {
-            System.out.println(canEnterDiscoMessage);
         } else {
             System.out.println(declineMessage);
+
+            System.out.println();
+            System.out.println("Hello! This is the Old Bouncer and you can try again.");
+            System.out.println("What is your age?");
+            age = inputReader.nextInt();
+            System.out.println("What is your height?");
+            height = inputReader.nextInt();
+            System.out.println("Is it true or false that you can sing well?");
+            canSing = inputReader.nextBoolean();
+
+            boolean oldBouncer = age >= 18 || height >= 160 || canSing;
+
+            if (oldBouncer) {
+                System.out.println(canEnterDiscoMessage);
+            } else {
+                System.out.println(declineMessage);
+            }
         }
     }
 }

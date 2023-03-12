@@ -36,7 +36,7 @@ public class BouncersInDiscoStory {
             System.out.println(declineMessage);
 
             System.out.println();
-            System.out.println("Hello! This is the Old Bouncer and you can try again.");
+            System.out.println("Hello! This is the Old Bouncer.");
             System.out.println("What is your age?");
             age = inputReader.nextInt();
             System.out.println("What is your height?");

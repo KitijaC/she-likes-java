@@ -20,7 +20,8 @@ public class WhileLoop {
             System.out.println("I'm working");
             // first right part of the expression is evaluated and is assigned to variable
             numberOfTrials = (numberOfTrials - 1);
-            if (numberOfTrials % 2 == 1) { // printing just odd numbers
+            if (numberOfTrials % 2 == 1) { // printing just odd numbers if you divide the current (updated) number of trials to 2 and you have a remainder (for example 5/2 = 2 remainder 1) it will display the current (updated) number of trials
+
                 System.out.println("Current value of numberOfTrials: " + numberOfTrials);
             }
         }

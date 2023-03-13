@@ -28,7 +28,7 @@ public class BouncersInDiscoStory {
         System.out.println("Is it true or false that you can sing well?");
         boolean canSing = inputReader.nextBoolean();
 
-        boolean youngBouncer = age >= 18 && height >= 160 && canSing;
+        boolean youngBouncer = age >= 18 && height >= 160 && canSing == true;
 
         if (youngBouncer) {
             System.out.println(canEnterDiscoMessage);
@@ -44,7 +44,7 @@ public class BouncersInDiscoStory {
             System.out.println("Is it true or false that you can sing well?");
             canSing = inputReader.nextBoolean();
 
-            boolean oldBouncer = age >= 18 || height >= 160 || canSing;
+            boolean oldBouncer = age >= 18 || height >= 160 || canSing == true;
 
             if (oldBouncer) {
                 System.out.println(canEnterDiscoMessage);

@@ -6,68 +6,57 @@
 
 package com.sda.she_likes_java.homework;
 
+import java.util.Scanner;
+
 public class Homework07 {
+
     public static void main(String[] args) {
         System.out.println("It's time to party!");
 
-        checkedByYoungBouncer(20, 170, false);
-    }
-
-    public static boolean checkedByYoungBouncer(int age, int height, boolean isAbleToSingWell) {
         String declineMessage = "Sorry, you can't attend the party. Maybe next time!";
         String canEnterDiscoMessage = "Congrats! You can enter the party!";
 
         System.out.println();
         System.out.println("Hello! This is the Young Bouncer.");
-        System.out.println();
         System.out.println("What is your age?");
-        System.out.println("- My age is " + age);
-        System.out.println();
+        Scanner inputReader = new Scanner(System.in);
+        int age = inputReader.nextInt();
         System.out.println("What is your height?");
-        System.out.println("- My height is " + height + "cm");
-        System.out.println();
+        int height = inputReader.nextInt();
         System.out.println("Is it true or false that you can sing well?");
-        System.out.println("- " + isAbleToSingWell);
-        System.out.println();
+        boolean isAbleToSingWell = inputReader.nextBoolean();
 
-        boolean youngBouncer = age >= 18 && height >= 160 && isAbleToSingWell;
+        boolean youngBouncer = checkedByYoungBouncer(age, height, isAbleToSingWell);
 
         if (youngBouncer) {
             System.out.println(canEnterDiscoMessage);
         } else {
             System.out.println(declineMessage);
 
-            checkedByOldBouncer(10, 140, true);
-        }
+            System.out.println();
+            System.out.println("Hello! This is the Old Bouncer.");
+            System.out.println("What is your age?");
+            age = inputReader.nextInt();
+            System.out.println("What is your height?");
+            height = inputReader.nextInt();
+            System.out.println("Is it true or false that you can sing well?");
+            isAbleToSingWell = inputReader.nextBoolean();
 
-        return youngBouncer;
+            boolean oldBouncer = checkedByOldBouncer(age, height, isAbleToSingWell) ;
+
+            if (oldBouncer) {
+                System.out.println(canEnterDiscoMessage);
+            } else {
+                System.out.println(declineMessage);
+            }
+        }
+    }
+
+    public static boolean checkedByYoungBouncer(int age, int height, boolean isAbleToSingWell) {
+        return age >= 18 && height >= 160 && isAbleToSingWell;
     }
 
     public static boolean checkedByOldBouncer(int age, int height, boolean isAbleToSingWell) {
-        String declineMessage = "Sorry, you can't attend the party. Maybe next time!";
-        String canEnterDiscoMessage = "Congrats! You can enter the party!";
-
-        System.out.println();
-        System.out.println("Hello! This is the Old Bouncer.");
-        System.out.println();
-        System.out.println("What is your age?");
-        System.out.println("- My age is " + age);
-        System.out.println();
-        System.out.println("What is your height?");
-        System.out.println("- My height is " + height + "cm");
-        System.out.println();
-        System.out.println("Is it true or false that you can sing well?");
-        System.out.println("- " + isAbleToSingWell);
-        System.out.println();
-
-        boolean oldBouncer = age >= 18 || height >= 160 || isAbleToSingWell;
-
-        if (oldBouncer) {
-            System.out.println(canEnterDiscoMessage);
-        } else {
-            System.out.println(declineMessage);
-        }
-
-        return oldBouncer;
+        return age >= 18 || height >= 160 || isAbleToSingWell;
     }
 }

@@ -17,6 +17,6 @@ public class TimeAndDateExample {
         System.out.println("Current date and time in my location is: " + currentDateAndTime);
 
         System.out.println("Let's format a little bit our date and time");
-        System.out.println(currentDateAndTime.format(DateTimeFormatter.ISO_DATE_TIME));
+        System.out.println(currentDateAndTime.format(DateTimeFormatter.BASIC_ISO_DATE));
     }
 }

@@ -10,6 +10,8 @@ public class NumberOfDaysInMonths {
 
         //switch with fall through
         switch(monthNumber) {
+            // if there is no matching value default one would be used
+            //default is optional - sometimes it doesn't exist
             case 1:
             case 3:
             case 5:

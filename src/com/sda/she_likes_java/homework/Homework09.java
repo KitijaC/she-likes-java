@@ -4,7 +4,6 @@
 
 package com.sda.she_likes_java.homework;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class Homework09 {

@@ -9,15 +9,17 @@ import java.util.Random;
 
 public class Homework09 {
     public static void main(String[] args) {
+
+        //Bubble sort?
+
         Random numberGenerator = new Random();
         int firstRandomNumber = numberGenerator.nextInt(100);
         int secondRandomNumber = numberGenerator.nextInt(100);
         int thirdRandomNumber = numberGenerator.nextInt(100);
+        int temp;
 
         System.out.println("Three random numbers from 1 to 100 are: "
                 + firstRandomNumber + "; " + secondRandomNumber + "; " + thirdRandomNumber);
-
-        int temp;
 
         if (secondRandomNumber < firstRandomNumber) {
             temp = firstRandomNumber;

@@ -4,6 +4,7 @@
 
 package com.sda.she_likes_java.homework;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Homework09 {
@@ -12,6 +13,9 @@ public class Homework09 {
         int firstRandomNumber = numberGenerator.nextInt(100);
         int secondRandomNumber = numberGenerator.nextInt(100);
         int thirdRandomNumber = numberGenerator.nextInt(100);
+
+        System.out.println("Three random numbers from 1 to 100 are: "
+                + firstRandomNumber + "; " + secondRandomNumber + "; " + thirdRandomNumber);
 
         int temp;
 
@@ -33,7 +37,7 @@ public class Homework09 {
             secondRandomNumber = temp;
         }
 
-        System.out.println("Three random numbers from 1 to 100 in ascending order are: "
+        System.out.println("These numbers in ascending order: "
                 + firstRandomNumber + "; " + secondRandomNumber + "; " + thirdRandomNumber);
     }
 }

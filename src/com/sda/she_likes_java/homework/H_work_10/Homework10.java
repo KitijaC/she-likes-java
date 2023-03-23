@@ -5,7 +5,7 @@
 //tab[0] = 3 * 0
 //tab[10] = 3 * 10.
 
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.H_work_10;
 
 public class Homework10 {
     public static void main(String[] args) {

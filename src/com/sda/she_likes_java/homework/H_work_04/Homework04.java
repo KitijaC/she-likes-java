@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.H_work_04;
 // Exercise 8.
 //Create calculator with 4 supported operations, which is able to read input from user.
 

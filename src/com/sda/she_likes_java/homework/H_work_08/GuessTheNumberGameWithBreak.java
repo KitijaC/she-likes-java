@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.H_work_08;
 
 import java.util.Random;
 import java.util.Scanner;

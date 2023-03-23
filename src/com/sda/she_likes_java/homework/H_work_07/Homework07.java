@@ -4,7 +4,7 @@
 //- second function with shape: boolean checkedByOldBouncer(int age, int height, boolean isAbleToSingWell)
 //- rest of requirements stays the same
 
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.H_work_07;
 
 import java.util.Scanner;
 

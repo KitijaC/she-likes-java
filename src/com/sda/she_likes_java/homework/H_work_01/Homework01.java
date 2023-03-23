@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.H_work_01;
 
 //Exercise 1
 //Write a programme that writes a Christmas tree.

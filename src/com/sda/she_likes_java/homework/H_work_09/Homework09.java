@@ -2,7 +2,7 @@
 //Draw three numbers using the Random.nextInt() function.
 //Sort them and output them from smallest to largest.
 
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.H_work_09;
 
 import java.util.Arrays;
 import java.util.Random;

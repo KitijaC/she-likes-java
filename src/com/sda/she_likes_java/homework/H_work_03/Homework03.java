@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.H_work_03;
 
 //Exercise 7.
 //Create a simple calculator:

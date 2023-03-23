@@ -7,7 +7,7 @@
 //- Old has some kind of sight problem - so if any of the conditions are met, the person can enter the disco
 //- people try to cheat, so if someone is rejected by the young bouncer they try again with the old one:)
 
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.H_work_06;
 
 import java.util.Scanner;
 

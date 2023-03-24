@@ -14,23 +14,24 @@ public class Address {
     String country;
     String city;
     String street;
-    int postalCode;
+    String postalCode;
+
     public static void main(String[] args) {
 
         Address school = new Address();
         school.country = "Latvia";
         school.city = "Talsi";
         school.street = "street Skolas 3";
-        school.postalCode = 3261;
+        school.postalCode = "LV-3261";
 
         Address hospital = new Address();
         hospital.country = "Latvia";
         hospital.city = "Ventspils";
         hospital.street = "street Saules 12";
-        hospital.postalCode = 3220;
+        hospital.postalCode = "LV-3220";
 
-        System.out.println("My school address is: " + school.country + ", " + school.city + ", " + school.street + ", LV-" + school.postalCode);
-        System.out.println("Address of the nearest hospital is: " + hospital.country + ", " + hospital.city + ", " + hospital.street + ", LV-" + hospital.postalCode);
+        System.out.println("My school address is: " + school.country + ", " + school.city + ", " + school.street + ", " + school.postalCode);
+        System.out.println("Address of the nearest hospital is: " + hospital.country + ", " + hospital.city + ", " + hospital.street + ", " + hospital.postalCode);
 
     }
 

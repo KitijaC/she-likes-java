@@ -1,6 +1,6 @@
 package com.sda.she_likes_java.classes;
 
-import com.sda.she_likes_java.homework.H_work_11.Address;
+import com.sda.she_likes_java.other.Address;
 
 public class Person {
     String name;

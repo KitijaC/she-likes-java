@@ -1,10 +1,10 @@
-package com.sda.she_likes_java.other;
+package com.sda.she_likes_java.classes;
 
 public class Address {
-    String country;
-    String city;
-    String street;
-    String postalCode;
+    public String country;
+    public String city;
+    public String street;
+    public String postalCode;
 
     @Override
     public String toString() {

@@ -70,6 +70,7 @@ public class Owner {
         animal.setBreed("Jack Russel Terrier");
         animal.setAge(3);
 
+//        System.out.println("Hierarchy of classes: " + owner);
         System.out.println("Owner is: " + owner.toString() + " dog is: " + animal.toString());
         System.out.println("Hello, my name is " + owner.getFirstName() + " "
                 + owner.surname + " and I have a " + animal.getBreed() +

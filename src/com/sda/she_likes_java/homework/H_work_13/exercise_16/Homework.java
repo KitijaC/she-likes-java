@@ -29,6 +29,6 @@ public class Homework {
         animal.setBreed("Jack Russel Terrier");
         animal.setAge(3);
 
-        System.out.println(owner.toString());
+        System.out.println(owner);
     }
 }

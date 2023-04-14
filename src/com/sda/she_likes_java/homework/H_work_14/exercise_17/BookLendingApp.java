@@ -25,7 +25,7 @@ public class BookLendingApp {
             Book book = new Book("Author " + i, "Title " + i, 2000 + i);
         }
 
-        System.out.println("Number of books created: " + Book.getNumberOfBooks());
+        System.out.println("Number of books created: " + Book.getNumberOfBooksCreated());
 
     }
 }

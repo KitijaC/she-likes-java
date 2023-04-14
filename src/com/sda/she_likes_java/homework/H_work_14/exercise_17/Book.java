@@ -4,13 +4,13 @@ public class Book {
     private String author;
     private String title;
     private int publicationYear;
-    private static int numberOfBooks;
+    private static int numberOfBooksCreated;
 
     public Book(String author, String title, int publicationYear) {
         this.author = author;
         this.title = title;
         this.publicationYear = publicationYear;
-        numberOfBooks++;
+        numberOfBooksCreated++;
     }
 
     public String getAuthor() {
@@ -37,8 +37,8 @@ public class Book {
         this.publicationYear = publicationYear;
     }
 
-    public static int getNumberOfBooks() {
-        return numberOfBooks;
+    public static int getNumberOfBooksCreated() {
+        return numberOfBooksCreated;
     }
 
     @Override

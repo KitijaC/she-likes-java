@@ -24,9 +24,13 @@ public class Robot {
                 """;
     }
 
+    private void doInternalTwix() {
+        System.out.println("very important stuff");
+    }
     public void moveForward() {
         xPosition++;
         System.out.println("I'm moving forward");
+        doInternalTwix();
     }
 
     public void moveBackward() {

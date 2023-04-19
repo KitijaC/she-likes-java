@@ -9,7 +9,7 @@ public class NamesClashes2 {
         // java.sql.Date - canonical class name
         java.sql.Date sqlDate = new java.sql.Date(100);
 
-        // the same as 6 line
+        // the same as 7 line
         com.sda.she_likes_java.name_clash.Date myDate2 = new com.sda.she_likes_java.name_clash.Date();
 
         // java.utilDate

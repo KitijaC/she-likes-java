@@ -35,14 +35,16 @@ public class Robot {
 
     public void moveBackward() {
         yPosition--;
-        System.out.println("I'm moving backward");
+        System.out.println("Hi, I'm able to move backward");
     }
 
     public void turnLeft() {
+
         System.out.println("I'm turning right");
     }
 
     public void turnRight() {
+
         System.out.println("I'm turning left");
     }
 

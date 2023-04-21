@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.H_work_14.exercise_17;
+package com.sda.she_likes_java.homework.H_work_15.exercise_17;
 
 public class Book {
     private String author;

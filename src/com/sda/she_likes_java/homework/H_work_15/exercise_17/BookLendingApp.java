@@ -8,7 +8,7 @@
 //To create a random number of objects, use the “Random” class and a loop that will execute as many times as the nextInt() method returns.
 //At the very end, write out the number of books created - use a variable of type “static”.
 
-package com.sda.she_likes_java.homework.H_work_14.exercise_17;
+package com.sda.she_likes_java.homework.H_work_15.exercise_17;
 
 import java.util.Random;
 

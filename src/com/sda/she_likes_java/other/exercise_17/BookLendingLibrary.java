@@ -17,8 +17,11 @@ public class BookLendingLibrary {
     public static void main(String[] args) {
         System.out.println("Let’s create some books");
         createBourneTrilogy();
+
+        //added examples later how to create many books - not related to this homework conditions
         System.out.printf("Number of copies of all books: [%d]%n", Book.getNumberOfCreatedBooks());
 
+        //added examples later how to create many books - not related to this homework conditions
         Book[] createdArray = createBourneTrilogyAndStoreItInArray();
         Book toCopy = new Book("Bourne Ultimatum", "Robert Ludlum", Year.of(1990));
         Book[] twoBooks = createCopyOfBook(toCopy);

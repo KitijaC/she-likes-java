@@ -18,6 +18,13 @@ public class BookLendingLibrary {
         System.out.println("Let’s create some books");
         createBourneTrilogy();
         System.out.printf("Number of copies of all books: [%d]%n", Book.getNumberOfCreatedBooks());
+
+        Book[] createdArray = createBourneTrilogyAndStoreItInArray();
+        Book toCopy = new Book("Bourne Ultimatum", "Robert Ludlum", Year.of(1990));
+        Book[] twoBooks = createCopyOfBook(toCopy);
+        System.out.println("First copy of book: " + twoBooks[0]);
+        System.out.println("Second copy of book: " + twoBooks[1]);
+        System.out.printf("Number of copies of all books: [%d]%n", Book.getNumberOfCreatedBooks());
     }
     public static void createBourneTrilogy() {
         Random random = new Random();
@@ -27,5 +34,24 @@ public class BookLendingLibrary {
             new Book("Bourne Supremacy", "Robert Ludlum", Year.of(1986));
             new Book("Bourne Ultimatum", "Robert Ludlum", Year.of(1990));
         }
+    }
+
+    //added examples later how to create many books - not related to this homework conditions
+    public static Book[] createCopyOfBook(Book bookToCopy) {
+        Book[] bookShelf = new Book[2];
+        bookShelf[0] = new Book(bookToCopy.getTitle(), bookToCopy.getAuthor(), bookToCopy.getYearOfPublication());
+        bookShelf[1] = new Book(bookToCopy.getTitle(), bookToCopy.getAuthor(), bookToCopy.getYearOfPublication());
+        return bookShelf;
+    }
+
+    public static Book[] createBourneTrilogyAndStoreItInArray() {
+        Random random = new Random();
+        int numberOfIterations = random.nextInt(1024);
+        Book[] books = new Book[numberOfIterations];
+        for (int i = 0; i < numberOfIterations; i++) {
+            books[i] = new Book("Bourne Identity", "Robert Ludlum", Year.of(1980));
+        }
+
+        return books;
     }
 }

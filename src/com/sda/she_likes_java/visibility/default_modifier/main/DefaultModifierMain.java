@@ -7,6 +7,6 @@ public class DefaultModifierMain {
     public static void main(String[] args) {
         // try to use Car class with default visibility
         //I'm not able to use class with package private visibility outside its package
-        //Car car = new car();
+        //Car car = new Car();
     }
 }

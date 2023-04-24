@@ -17,9 +17,12 @@ public class Main {
         callAnimal(new Elephant());
         callAnimal(elephant);
 
+//        Cat catty = new Dog();
+
         Object anotherCat = new Cat();
 //        anotherCat.makeSound();
         Animal animalCat = new Cat();
+
         Cat thirdCat = new Cat();
 
     }

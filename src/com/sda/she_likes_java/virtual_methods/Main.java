@@ -22,7 +22,7 @@ public class Main {
         castedFromHuman.learnJava(); // same as humanLife 23 line
         Man manForSure = new Man();
         Human anotherMan = manForSure; // Human anotherMan = Man(); every man is a human, but not  every human is a man
-//        humanLife.tryToCastHumanToMan(anotherMan);
+        humanLife.tryToCastHumanToMan(anotherMan);
 //        humanLife.tryToCastHumanToMan(new Man());
         humanLife.tryToCastHumanToMan(new Woman());
     }

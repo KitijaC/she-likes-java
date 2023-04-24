@@ -5,7 +5,7 @@ public class ImmutableString {
     public static void main(String[] args) {
         String name = "Kitija";
         // name + "Cietvira"
-        name.concat("Cietvira"); // + is shortcut for concat method call
+        name.concat("Cietvira"); // + is shortcut for concat method call ex.: name + "Cietvira"
         name = name.concat("she is 27");
         System.out.println("My name now " + name);
 

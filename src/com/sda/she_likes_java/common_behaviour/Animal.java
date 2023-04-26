@@ -1,6 +1,4 @@
-package com.sda.she_likes_java.common_behaviour.wrong_approach;
-
-import org.w3c.dom.ls.LSOutput;
+package com.sda.she_likes_java.common_behaviour;
 
 public class Animal implements Moveable {
     public void go() {

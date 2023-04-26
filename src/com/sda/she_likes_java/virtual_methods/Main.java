@@ -18,8 +18,8 @@ public class Main {
 
         System.out.println("Casting objects");
         Human anotherWoman = new Woman();
-        Woman castedFromHuman = (Woman) anotherWoman; // same as humanLife 23 line
-        castedFromHuman.learnJava(); // same as humanLife 23 line
+        Woman castedFromHuman = (Woman) anotherWoman; // same as humanLife 27 line
+        castedFromHuman.learnJava(); // same as humanLife 27 line
         Man manForSure = new Man();
         Human anotherMan = manForSure; // Human anotherMan = Man(); every man is a human, but not  every human is a man
         humanLife.tryToCastHumanToMan(anotherMan);

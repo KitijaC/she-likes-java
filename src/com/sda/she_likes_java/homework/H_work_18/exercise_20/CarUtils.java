@@ -7,13 +7,13 @@ public class CarUtils {
             ((Mazda) car).driveFast();
             ((Mazda) car).wheelChange();
             ((Mazda) car).driveSlow();
-        }
-
-        if (car instanceof Toyota) {
+        } else if (car instanceof Toyota) {
             System.out.println("It's Toyota");
             ((Toyota) car).broke();
             ((Toyota) car).repair();
             ((Toyota) car).colorChange();
+        } else {
+            System.out.println("It's different type of car");
         }
     }
 }

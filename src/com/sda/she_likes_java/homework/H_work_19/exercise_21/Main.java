@@ -12,16 +12,16 @@ package com.sda.she_likes_java.homework.H_work_19.exercise_21;
 
 public class Main {
     public static void main(String[] args) {
-        Airplane myAirplane = new Airplane();
-        myAirplane.move();
-        myAirplane.fly();
+        Vehicle airplane = new Airplane(); // casting
+        Airplane myAirplane = (Airplane) airplane; // casting
+        myAirplane.fly(); // accessing interface method
 
-        Ship myShip = new Ship();
-        myShip.move();
+        Vehicle ship = new Ship();
+        Ship myShip = (Ship) ship;
         myShip.floatt();
 
-        Submarine mySubmarine = new Submarine();
-        mySubmarine.move();
+        Vehicle submarine = new Submarine();
+        Submarine mySubmarine = (Submarine) submarine;
         mySubmarine.dive();
 
     }

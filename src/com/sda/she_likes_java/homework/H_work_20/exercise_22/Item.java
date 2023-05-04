@@ -2,10 +2,19 @@ package com.sda.she_likes_java.homework.H_work_20.exercise_22;
 
 public class Item {
     private String name;
-    private int price;
+    private double price;
 
-    public Item(String name, int price) {
+
+    public Item(String name, double price) {
         this.name = name;
+        this.price = price;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
         this.price = price;
     }
 
@@ -17,13 +26,6 @@ public class Item {
         this.name = name;
     }
 
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
 
     @Override
     public String toString() {

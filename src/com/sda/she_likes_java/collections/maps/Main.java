@@ -21,4 +21,8 @@ public class Main {
         personsTrousers.put(new Person("mariusz", "p."), new Trousers ("polish material", "primark"));
         personsTrousers.put(new Person("karolina", "p."), new Trousers ("polish material", "primark"));
     }
+    //map example:
+    //- contains values under the keys (value is represented by key)
+    //- any type can be type of the key
+    //- any type can be type of the value
 }

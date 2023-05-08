@@ -26,7 +26,9 @@ public class ShoppingCart {
         }
 
         public void displayItems() {
-            System.out.println("Items in the shopping cart:");
+            System.out.println("Items in the shopping cart:" + items);
+            System.out.println("");
+            System.out.println("Here is the list of the items: ");
             System.out.println("");
             for (Item item : items) {
                 System.out.println(item.getName() + " - EUR " + item.getPrice());

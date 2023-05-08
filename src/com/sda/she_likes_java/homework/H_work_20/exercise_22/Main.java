@@ -22,13 +22,16 @@ public class Main {
 
         ShoppingCart shoppingCartItems = new ShoppingCart();
 
-        Item firstItem = new Item("Book", 10.40);
-        Item secondItem = new Item ("Pencil", 1.50);
-        Item thirdItem = new Item ("Notebook", 5.85);
+        Item book = new Item("Book", 10.40);
+        Item pencil = new Item ("Pencil", 1.50);
+        Item notebook = new Item ("Notebook", 5.85);
 
-        shoppingCartItems.addItemToCart(firstItem);
-        shoppingCartItems.addItemToCart(secondItem);
-        shoppingCartItems.addItemToCart(thirdItem);
+        shoppingCartItems.addItemToCart(book);
+        shoppingCartItems.addItemToCart(pencil);
+        shoppingCartItems.addItemToCart(pencil);
+        shoppingCartItems.addItemToCart(pencil);
+        shoppingCartItems.addItemToCart(notebook);
+        shoppingCartItems.addItemToCart(notebook);
 
         shoppingCartItems.displayItems();
         System.out.println("");

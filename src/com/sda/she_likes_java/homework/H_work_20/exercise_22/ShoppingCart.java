@@ -35,9 +35,12 @@ public class ShoppingCart {
 
         public double calculateTotal() {
             double total = 0;
-            for (Item item : items) {
-                total += item.getPrice();
+            for (int i = 0; i < items.size(); i++) { // size method is the same as length in the arrays
+                total += items.get(i).getPrice();
             }
+//            for (Item item : items) {
+//                total += item.getPrice();
+//            }
             return total;
         }
 

@@ -45,7 +45,7 @@ public class Main {
 
     public static void showItemsFromTheListList (List<Trousers> items) {
         // enhanced for loop
-        for (Trousers currentItem: items) { // right side - collection, left side - in every iteration had every value from collection
+        for (Trousers currentItem: items) { // right side - collection (list name), left side - (list type and variable name) in every iteration had every value from collection
             System.out.println(currentItem);
         }
 

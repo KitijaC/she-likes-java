@@ -1,0 +1,20 @@
+  Exercise 30
+  Write SQL scripts:
+  - Create a Student table with fields:
+  - ID of type Integer
+  - Name type varchar(255)
+  - Surname type varchar(255)
+  - Age type Integer
+  - SEX type varchar(255)
+  Write a script to insert 5 rows into the Student table
+  Add a script to delete students by ID
+
+  DROP TABLE IF EXISTS STUDENT;
+  CREATE TABLE STUDENT
+  (ID INT PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) NOT NULL, SURNAME VARCHAR(255) NOT NULL, AGE INT NOT NULL DEFAULT 0, SEX VARCHAR(255));
+  INSERT INTO STUDENT ( NAME, SURNAME, SEX) VALUES ('Olek', 'S.', 'MALE');
+  INSERT INTO STUDENT ( NAME, SURNAME, AGE, SEX) VALUES ('Marek', 'W.', 25, 'MALE');
+  INSERT INTO STUDENT ( NAME, SURNAME, AGE, SEX) VALUES ('Alina', 'G.', 18, 'FEMALE');
+  INSERT INTO STUDENT ( NAME, SURNAME, AGE, SEX) VALUES ('Anna', 'F.', 35, 'FEMALE');
+  INSERT INTO STUDENT ( NAME, SURNAME, AGE, SEX) VALUES ('EWELINA', 'A.', 40, 'FEMALE');
+  DELETE FROM STUDENT WHERE ID = 10;

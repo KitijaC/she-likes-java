@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         Connection connection = DbConnectionUtils.getConnection(DbCredentials.h2InMemoryUrl,
-        DbCredentials.h2Username, DbCredentials.h2Password);
+                DbCredentials.h2Username, DbCredentials.h2Password);
 
         System.out.println("Do we have connection? " + (connection != null));
 
@@ -20,6 +20,5 @@ public class Main {
         for (AccentureStudent student : students) {
             System.out.println("Student: " + student);
         }
-
     }
 }

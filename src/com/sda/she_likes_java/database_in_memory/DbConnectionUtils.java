@@ -8,7 +8,7 @@ public class DbConnectionUtils {
 
     public static Connection getConnection(String dbUrl, String username, String password) {
         try {
-            return DriverManager.getConnection("jdbc:h2:tcp://localhost/~/Data/she-goes-tech/db",
+            return DriverManager.getConnection(dbUrl,
                     username,
                     password);
         } catch (SQLException e) {

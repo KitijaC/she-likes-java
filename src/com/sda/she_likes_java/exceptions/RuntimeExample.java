@@ -21,6 +21,7 @@ public class RuntimeExample {
         } catch (ArrayIndexOutOfBoundsException e) {
 
         }
+
     }
 
     public static void throwRuntimeException() throws MyRuntimeException {
